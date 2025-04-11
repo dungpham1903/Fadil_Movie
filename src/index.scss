@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-[#000000] font-body ;
+    } 
+}
+@layer components{
+    .page-container{
+        @apply max-w-7xl m-auto;
+    }
+    .Home-container{
+        @apply max-w-full ml-14
+    }
+    .movie-list .swiper-slide {
+        @apply w-1/4 h-auto mr-0;
+    }
+    .banner .swiper{
+        @apply h-full;
+    }
+}
